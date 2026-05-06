@@ -7,7 +7,7 @@ const familias = require("../familias");
 const outputDir = path.join(__dirname, "imagenes");
 if (!fs.existsSync(outputDir)) fs.mkdirSync(outputDir);
 
-const baseURL = "https://TU-LINK-NETLIFY.netlify.app"; // cámbialo cuando subas
+const baseURL = "https://lizette113.github.io/qr";
 
 for (const clave in familias) {
   const fam = familias[clave];
